@@ -1,1 +1,3 @@
 # FUTURE_FS_03
+
+This website helps Shivani Juice Center grow by improving its online presence and increasing customer trust. Customers can easily view the menu, explore juice varieties, check offers, see gallery images, and contact the shop instantly through call or WhatsApp. The Google Maps integration helps customers locate the juice center quickly, increasing walk-in customers. Overall, the website improves visibility, supports business growth, and boosts sales by making the shop available online 24/7.
