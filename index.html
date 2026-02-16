@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivani Juice Center</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🍹 Shivani Juice Center</h1>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn">Order Now</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Fresh Juice, Fresh Mood 🍊✨</h2>
+      <p>Enjoy healthy and tasty juices, shakes & smoothies at Shivani Juice Center.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      Shivani Juice Center is a popular local juice shop in Chikkamagaluru providing fresh juices,
+      milkshakes, smoothies, and seasonal fruit drinks. We focus on hygiene, quality ingredients,
+      and customer satisfaction.
+    </p>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-container">
+      <div class="menu-card">
+        <h3>Orange Juice</h3>
+        <p>Fresh orange juice with natural taste.</p>
+        <span>₹50</span>
+      </div>
+
+      <div class="menu-card">
+        <h3>Mango Shake</h3>
+        <p>Sweet mango milkshake with rich flavor.</p>
+        <span>₹70</span>
+      </div>
+
+      <div class="menu-card">
+        <h3>Watermelon Juice</h3>
+        <p>Refreshing summer special drink.</p>
+        <span>₹40</span>
+      </div>
+
+      <div class="menu-card">
+        <h3>Banana Shake</h3>
+        <p>Healthy banana shake with milk.</p>
+        <span>₹60</span>
+      </div>
+
+      <div class="menu-card">
+        <h3>Chocolate Milkshake</h3>
+        <p>Delicious chocolate shake with creamy taste.</p>
+        <span>₹80</span>
+      </div>
+
+      <div class="menu-card">
+        <h3>Mixed Fruit Juice</h3>
+        <p>Combination of seasonal fruits.</p>
+        <span>₹90</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offers Section -->
+  <section class="offers" id="offers">
+    <h2>Special Offers</h2>
+
+    <div class="offer-container">
+      <div class="offer-card">
+        <h3>🔥 Buy 1 Get 1 Free</h3>
+        <p>Available on selected juices every weekend.</p>
+      </div>
+
+      <div class="offer-card">
+        <h3>🎉 Student Discount</h3>
+        <p>10% off for students with ID card.</p>
+      </div>
+
+      <div class="offer-card">
+        <h3>🍓 Seasonal Specials</h3>
+        <p>Try our new seasonal fruit juice varieties.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+
+    <div class="gallery-container">
+      <img src="https://images.pexels.com/photos/5946084/pexels-photo-5946084.jpeg" alt="Juice Image">
+      <img src="https://images.pexels.com/photos/5946077/pexels-photo-5946077.jpeg" alt="Juice Image">
+      <img src="https://images.pexels.com/photos/616833/pexels-photo-616833.jpeg" alt="Juice Image">
+      <img src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg" alt="Juice Image">
+      <img src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg" alt="Juice Image">
+      <img src="https://images.pexels.com/photos/5946080/pexels-photo-5946080.jpeg" alt="Juice Image">
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews" id="reviews">
+    <h2>Customer Reviews</h2>
+
+    <div class="review-container">
+      <div class="review-card">
+        <p>"Fresh juices and good taste. Best place in Chikkamagaluru!"</p>
+        <h4>- Customer</h4>
+      </div>
+
+      <div class="review-card">
+        <p>"Affordable price and very hygienic shop. Loved it!"</p>
+        <h4>- Customer</h4>
+      </div>
+
+      <div class="review-card">
+        <p>"Mango shake is my favorite. Must try!"</p>
+        <h4>- Customer</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><b>📍 Location:</b> Shivani Juice Center, Chikkamagaluru</p>
+        <p><b>📞 Phone:</b> +91 98765 43210</p>
+        <p><b>🕒 Working Hours:</b> 9:00 AM - 9:00 PM</p>
+        <p><b>📧 Email:</b> shivanijuicecenter@gmail.com</p>
+      </div>
+
+      <form id="orderForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="text" id="phone" placeholder="Enter your phone number" required>
+        <textarea id="order" placeholder="Enter your order (example: 2 Mango Shakes)" required></textarea>
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+    </div>
+
+    <!-- Google Map -->
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.4030855952797!2d75.79371549999999!3d13.3251838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbad9006dfee3b1%3A0xa34deecd67dcbc2b!2sShivani%20juice%20center!5e0!3m2!1sen!2sin!4v1771255268764!5m2!1sen!2sin" 
+        width="100%" 
+        height="300" 
+        style="border:0; border-radius:12px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Shivani Juice Center | Designed by Mamatha</p>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/919876543210" class="whatsapp-btn" target="_blank">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
